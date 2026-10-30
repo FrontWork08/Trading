@@ -1,0 +1,13 @@
+{
+  "name": "trading-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "engines": { "node": ">=22 <23" },
+  "workspaces": ["apps/api", "apps/worker"],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "dev:api": "npm run dev --workspace @trading/api",
+    "dev:worker": "npm run dev --workspace @trading/worker"
+  }
+}

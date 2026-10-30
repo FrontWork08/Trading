@@ -1,0 +1,14 @@
+node_modules/
+.npm-cache/
+supabase/.temp/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+android/key.properties
+build/
+.dart_tool/
+.flutter-plugins*
